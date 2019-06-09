@@ -3,3 +3,5 @@ cmake-build-debug
 .idea
 *.swp
 *.swo
+CMakeFiles
+CMakeCache.txt

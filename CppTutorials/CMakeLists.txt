@@ -1,2 +1,4 @@
-install (TARGETS strings DESTINATION bin)
-install (FILES ../Strings/strings.h DESTINATION include)
+add_library(CppTutorials_strings strings.cpp)
+add_library(CppTutorials_pointers pointers.cpp)
+add_library(CppTutorials_structs structs.cpp)
+add_library(CppTutorials_variables variables.cpp)

@@ -27,10 +27,10 @@ endif (USE_TUTORIALS)
 
 # add the executable
 add_executable(Tutorial main.cpp)
-target_link_libraries(Tutorial strings)
-target_link_libraries(Tutorial structs)
-target_link_libraries(Tutorial pointers)
-target_link_libraries(Tutorial variables)
+target_link_libraries(Tutorial CppTutorials_strings)
+target_link_libraries(Tutorial CppTutorials_variables)
+target_link_libraries(Tutorial CppTutorials_structs)
+target_link_libraries(Tutorial CppTutorials_pointers)
 
 install (TARGETS Tutorial DESTINATION bin)
 install (FILES "${PROJECT_BINARY_DIR}/TutorialConfig.h" DESTINATION include)

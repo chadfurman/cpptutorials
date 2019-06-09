@@ -1,10 +1,6 @@
 #include <iostream>
 #include "TutorialConfig.hpp"
 #ifdef USE_TUTORIALS
-#include "strings.h"
-#include "Structs/structs.h"
-#include "Pointers/pointers.h"
-#include "Variables/variables.h"
 #include "CppTutorials.h"
 #endif
 
