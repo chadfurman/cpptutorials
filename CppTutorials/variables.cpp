@@ -4,6 +4,7 @@ using namespace std;
 
 void variables()
 {
+  cout<<"Variables"<<std::endl<<"----"<<std::endl;
   int thisisanumber, doubled, halved, less2, equivalentToThree;
   cout << "Please enter a number: ";
   cin >> thisisanumber;
@@ -33,5 +34,4 @@ void variables()
   }
 
   cout << std::endl;
-  cin.get();
 }

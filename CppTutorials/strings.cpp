@@ -8,6 +8,7 @@ void strings() {
     char lastname[50];
     char fullname[100];
 
+    cout<<"Strings"<<std::endl<<"----"<<std::endl;
     cout << "Please enter your name: ";
     cin.getline(name, 50);
     if (strcmp(name, "Chad") < 0) {
@@ -21,6 +22,5 @@ void strings() {
     strcat(fullname, name);
     strcat(fullname, " ");
     strcat(fullname, lastname);
-    cout << "your full name is " << fullname;
-    cin.get();
+    cout << "your full name is " << fullname << std::endl;
 }

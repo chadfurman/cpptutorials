@@ -9,6 +9,7 @@ struct database {
 };
 
 void structs() {
+    cout<<"Structs"<<std::endl<<"----"<<std::endl;
     database db;
     database *purpleDb;
 
@@ -17,6 +18,6 @@ void structs() {
     db.name = "purple";
     purpleDb = &db;
 
-    cout << purpleDb->name << std::endl;
+    cout << "struct access of 'name' property: " << purpleDb->name << std::endl;
 }
 
