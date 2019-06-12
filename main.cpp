@@ -21,6 +21,7 @@ void start() {
     cout<<"2) pointers"<<std::endl;
     cout<<"3) structs"<<std::endl;
     cout<<"4) strings"<<std::endl;
+    cout<<"5) files"<<std::endl;
     cout<<"-1) exit"<<std::endl;
     cout<<std::endl<<"Enter your choice: "<<std::endl;
     cin >> choice;
@@ -55,6 +56,14 @@ void start() {
             strings();
 #else
             cout<<"You chose strings"<<std::endl;
+#endif
+            runAgain();
+            break;
+        case 5:
+#ifdef USE_TUTORIALS
+            files();
+#else
+            cout<<"You chose files"<<std::endl;
 #endif
             runAgain();
             break;
