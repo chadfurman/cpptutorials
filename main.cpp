@@ -22,6 +22,8 @@ void start() {
     cout<<"3) structs"<<std::endl;
     cout<<"4) strings"<<std::endl;
     cout<<"5) files"<<std::endl;
+    cout<<"6) typecasting"<<std::endl;
+    cout<<"7) classes"<<std::endl;
     cout<<"-1) exit"<<std::endl;
     cout<<std::endl<<"Enter your choice: "<<std::endl;
     cin >> choice;
@@ -64,6 +66,22 @@ void start() {
             files();
 #else
             cout<<"You chose files"<<std::endl;
+#endif
+            runAgain();
+            break;
+        case 6:
+#ifdef USE_TUTORIALS
+            typecasting();
+#else
+            cout<<"You chose typecasting"<<std::endl;
+#endif
+            runAgain();
+            break;
+        case 7:
+#ifdef USE_TUTORIALS
+            classes();
+#else
+            cout<<"You chose classes"<<std::endl;
 #endif
             runAgain();
             break;
